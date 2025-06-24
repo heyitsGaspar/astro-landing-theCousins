@@ -1,6 +1,6 @@
 ---
 // layouts/BaseLayout.astro
-import Navbar from '../components/navbar.astro'
+// import Navbar from '../components/navbar.astro'
 import "../styles/global.css";
 ---
 
@@ -10,9 +10,10 @@ import "../styles/global.css";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Landing</title>
   </head>
-  <body class="bg-gray-50">
-    <Navbar />
+  <body>
+    <!-- <Navbar /> -->
     <slot />
     <script src="https://unpkg.com/flowbite@latest/dist/flowbite.min.js"></script>
+	 <script src="../js/main"></script>
   </body>
 </html>
