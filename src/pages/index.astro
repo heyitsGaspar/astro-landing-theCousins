@@ -2,6 +2,7 @@
 // src/pages/index.astro
 import Layout from '../layouts/Layout.astro';
 import Welcome from '../sections/welcome.astro'
+import Menu from '../sections/menu.astro';
 import 'aos/dist/aos.css';;
 ---
 
@@ -11,11 +12,11 @@ import 'aos/dist/aos.css';;
 	<Welcome />
   </section>
 
-  <section id="sobre" class="h-screen flex items-center justify-center bg-green-100">
-    <h2 class="text-3xl">Sobre Nosotros</h2>
+  <section id="menu" class="h-screen flex items-center justify-center">
+    <Menu />
   </section>
 
-  <section id="menu" class="h-screen flex items-center justify-center bg-yellow-100">
+  <section id="sobre" class="h-screen flex items-center justify-center bg-yellow-100">
     <h2 class="text-3xl">Nuestro Menú</h2>
   </section>
 </Layout>

@@ -1,0 +1,24 @@
+---
+// Menu Section of The Cousins Landing Page
+import Carousel from "../components/carousel.astro"
+---
+
+<div 
+    data-aos="fade-left"
+    data-aos-offset="200"
+    data-aos-duration="1000"
+    class="flex flex-col md:flex-row items-center justify-center gap-8 w-full max-w-6xl mx-auto py-12">
+  <div class="flex-1 flex flex-col items-start justify-center">
+    <h2 class="text-3xl md:text-5xl font-bold text-amber-200 mb-4">Nuestro Menú</h2>
+    <p class="mb-6 text-base md:text-lg text-gray-300">Descubre la variedad de hamburguesas, hot dogs, esquites y mucho más que tenemos para ti. ¡Calidad y sabor en cada bocado!</p>
+    <a href="/menu.pdf" download class="inline-block bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2 px-6 rounded transition-colors duration-200 shadow">Descargar Menú</a>
+  </div>
+  <div class="flex-1 w-full max-w-md"
+    data-aos="fade-left"
+    data-aos-offset="200"
+    data-aos-duration="1000">
+    <Carousel class="" />
+  </div>
+</div>
+
+
