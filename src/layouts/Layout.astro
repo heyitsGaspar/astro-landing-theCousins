@@ -1,7 +1,9 @@
 ---
 // layouts/BaseLayout.astro
 // import Navbar from '../components/navbar.astro'
+import { navbarScroll } from "../js/navbarScroll";
 import "../styles/global.css";
+
 ---
 
 <html lang="es">
@@ -15,5 +17,7 @@ import "../styles/global.css";
     <slot />
     <script src="https://unpkg.com/flowbite@latest/dist/flowbite.min.js"></script>
 	 <script src="../js/main"></script>
+	 <script type="module" src="/src/js/navbarScroll.ts"></script>
+
   </body>
 </html>
